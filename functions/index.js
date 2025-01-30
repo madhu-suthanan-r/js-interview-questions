@@ -91,7 +91,7 @@ function functionName() {
 // Output 
 var x = 21;
 var fun = function () {
-    console.log(x);
+    console.log(x); //******************undefined here */
     var x = 20;
 };
 fun();

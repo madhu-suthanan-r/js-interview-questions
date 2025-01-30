@@ -74,7 +74,7 @@ Array.prototype.myFilter = function (cb) {
 
 
 // Question 6 : Reduce Polyfill
-Array,prototype.maReduce - function(cb, initialValue){
+Array,prototype.maReduce = function(cb, initialValue){
   let accumulator = initialValue;
 
   for(let i=0; i<this.length; i++){
