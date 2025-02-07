@@ -50,7 +50,7 @@ console.log(sum(1)(2)(3)(4)); // log 20
 let count = 0;
 (function printCount(){
     if(count === 0){
-        let count = 1;
+        let count = 1 //----------> this is given more importance than one in global
         console.log(count); //1
     }
     console.log(count);// 0

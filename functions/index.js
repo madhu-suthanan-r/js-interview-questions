@@ -146,7 +146,7 @@ const addNum = (firstNum, secondNum) => firstNum + secondNum;
 let user = {
     name: "Roadside Coder",
     rc1: () => {
-      console.log("Subscribe to " + this.name);
+      console.log("Subscribe to " + this.name); // undefined
     },
     rc2() {
       console.log("Subscribe to " + this.name);
